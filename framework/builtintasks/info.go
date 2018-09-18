@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,8 +24,8 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"github.com/palantir/godel/framework/godel/config"
-	"github.com/palantir/godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel/config"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
 )
 
 func InfoTask() godellauncher.Task {

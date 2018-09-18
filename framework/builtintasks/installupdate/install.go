@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,8 +31,8 @@ import (
 	"github.com/palantir/pkg/specdir"
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/builtintasks/installupdate/layout"
-	"github.com/palantir/godel/godelgetter"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/builtintasks/installupdate/layout"
+	"github.com/sniperkit/snk.fork.palantir-godel/godelgetter"
 )
 
 // Copies and installs the gödel package from the provided PkgSrc. If the PkgSrc includes a checksum, this

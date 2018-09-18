@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,7 +26,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
 )
 
 const (
@@ -87,9 +92,9 @@ func NewPluginInfo(group, product, version string, params ...PluginInfoParam) (P
 
 	return pluginInfoImpl{
 		PluginSchemaVersionVar: CurrentSchemaVersion,
-		IDVar:             id,
-		ConfigFileNameVar: configFileName,
-		TasksVar:          builder.tasks,
+		IDVar:                  id,
+		ConfigFileNameVar:      configFileName,
+		TasksVar:               builder.tasks,
 	}, nil
 }
 

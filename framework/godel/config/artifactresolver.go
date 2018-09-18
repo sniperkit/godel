@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,9 +24,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/artifactresolver"
-	"github.com/palantir/godel/framework/godel/config/internal/v0"
-	"github.com/palantir/godel/pkg/osarch"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/artifactresolver"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel/config/internal/v0"
+	"github.com/sniperkit/snk.fork.palantir-godel/pkg/osarch"
 )
 
 type LocatorWithResolverConfig v0.LocatorWithResolverConfig

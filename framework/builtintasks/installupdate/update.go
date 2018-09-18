@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -31,8 +36,8 @@ import (
 	"github.com/palantir/pkg/specdir"
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/builtintasks/installupdate/layout"
-	"github.com/palantir/godel/godelgetter"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/builtintasks/installupdate/layout"
+	"github.com/sniperkit/snk.fork.palantir-godel/godelgetter"
 )
 
 // NewInstall performs a new installation of gödel in the specified directory using the specified package as the source.
@@ -97,7 +102,7 @@ func pkgSrcForVersion(version, wantChecksum string) (godelgetter.PkgSrc, error) 
 	}
 
 	// consider distribution URL to be canonical source
-	canonicalSrcPkgPath := fmt.Sprintf("https://palantir.bintray.com/releases/com/palantir/godel/godel/%s/godel-%s.tgz", version, version)
+	canonicalSrcPkgPath := fmt.Sprintf("https://palantir.bintray.com/releases/com/sniperkit/snk.fork.palantir-godel/godel/%s/godel-%s.tgz", version, version)
 
 	pkgPath, checksum, err := downloadedTGZForVersion(version)
 	if err != nil || (wantChecksum != "" && checksum != wantChecksum) {

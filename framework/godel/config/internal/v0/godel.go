@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,7 +26,7 @@ package v0
 import (
 	"github.com/palantir/pkg/matcher"
 
-	"github.com/palantir/godel/pkg/versionedconfig"
+	"github.com/sniperkit/snk.fork.palantir-godel/pkg/versionedconfig"
 )
 
 type GodelConfig struct {

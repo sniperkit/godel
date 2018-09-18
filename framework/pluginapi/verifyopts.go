@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +20,8 @@
 package pluginapi
 
 import (
-	"github.com/palantir/godel/framework/godellauncher"
-	"github.com/palantir/godel/framework/verifyorder"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/verifyorder"
 )
 
 // VerifyOptions is a JSON-serializable interface that can be translated into a godellauncher.VerifyOptions. Refer to

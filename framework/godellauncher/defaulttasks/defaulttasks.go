@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,8 +25,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/godel/config"
-	"github.com/palantir/godel/framework/internal/pluginsinternal"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel/config"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/internal/pluginsinternal"
 )
 
 const defaultResolver = "https://palantir.bintray.com/releases/{{GroupPath}}/{{Product}}/{{Version}}/{{Product}}-{{Version}}-{{OS}}-{{Arch}}.tgz"

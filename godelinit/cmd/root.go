@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/palantir/godel/framework/builtintasks/installupdate"
-	"github.com/palantir/godel/godelgetter"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/builtintasks/installupdate"
+	"github.com/sniperkit/snk.fork.palantir-godel/godelgetter"
 )
 
 var (
@@ -39,7 +44,7 @@ var rootCmd = &cobra.Command{
 	Use:   "godelinit",
 	Short: "Add latest version of gödel to a project",
 	Long: `godelinit adds godel to a project by adding the godelw script and godel configuration directory to it.
-The default behavior adds the newest release of godel on GitHub (https://github.com/palantir/godel/releases)
+The default behavior adds the newest release of godel on GitHub (https://github.com/sniperkit/snk.fork.palantir-godel/releases)
 to the project. If a specific version of godel is desired, it can be specified using the '--version' flag.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if len(args) > 0 {

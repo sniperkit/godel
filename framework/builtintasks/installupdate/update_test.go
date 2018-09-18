@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/palantir/godel/framework/builtintasks/installupdate"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/builtintasks/installupdate"
 )
 
 func TestUpdateUsesPathFromExecutable(t *testing.T) {

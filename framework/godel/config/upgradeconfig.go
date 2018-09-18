@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,8 +26,8 @@ package config
 import (
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/godel/config/internal/v0"
-	"github.com/palantir/godel/pkg/versionedconfig"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel/config/internal/v0"
+	"github.com/sniperkit/snk.fork.palantir-godel/pkg/versionedconfig"
 )
 
 func UpgradeConfig(cfgBytes []byte) ([]byte, error) {

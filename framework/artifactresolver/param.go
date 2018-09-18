@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +22,7 @@ package artifactresolver
 import (
 	"fmt"
 
-	"github.com/palantir/godel/pkg/osarch"
+	"github.com/sniperkit/snk.fork.palantir-godel/pkg/osarch"
 )
 
 type LocatorWithResolverParam struct {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,10 +31,10 @@ import (
 
 const (
 	propertiesFileContent = `# Lines starting with '#' should be ignored
-distributionURL=https://github.com/palantir/godel/godel-0.0.1.tgz
+distributionURL=https://github.com/sniperkit/snk.fork.palantir-godel/godel-0.0.1.tgz
 distributionSHA256=871ee79691aee47301214ab0ae10bd851e5bc0d48042ba8d33ac85cfcc7eb6cc
 `
-	urlValue      = "https://github.com/palantir/godel/godel-0.0.1.tgz"
+	urlValue      = "https://github.com/sniperkit/snk.fork.palantir-godel/godel-0.0.1.tgz"
 	checksumValue = "871ee79691aee47301214ab0ae10bd851e5bc0d48042ba8d33ac85cfcc7eb6cc"
 )
 

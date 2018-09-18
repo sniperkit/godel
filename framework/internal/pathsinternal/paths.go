@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,8 +26,8 @@ import (
 	"github.com/palantir/pkg/specdir"
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/artifactresolver"
-	"github.com/palantir/godel/framework/builtintasks/installupdate/layout"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/artifactresolver"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/builtintasks/installupdate/layout"
 )
 
 func PluginPath(pluginDir string, locator artifactresolver.Locator) string {

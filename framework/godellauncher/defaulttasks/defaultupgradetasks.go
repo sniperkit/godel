@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +22,8 @@ package defaulttasks
 import (
 	"io"
 
-	"github.com/palantir/godel/framework/godel/config"
-	"github.com/palantir/godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel/config"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
 )
 
 func BuiltinUpgradeConfigTasks() []godellauncher.UpgradeConfigTask {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,11 +35,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/palantir/godel/framework/artifactresolver"
-	"github.com/palantir/godel/framework/godellauncher"
-	"github.com/palantir/godel/framework/internal/pathsinternal"
-	"github.com/palantir/godel/framework/pluginapi/v2/pluginapi"
-	"github.com/palantir/godel/pkg/osarch"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/artifactresolver"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/internal/pathsinternal"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/pluginapi/v2/pluginapi"
+	"github.com/sniperkit/snk.fork.palantir-godel/pkg/osarch"
 )
 
 var pluginScriptTmpl = fmt.Sprintf(`#!/usr/bin/env bash

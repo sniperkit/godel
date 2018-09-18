@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,13 +31,13 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/palantir/godel/framework/artifactresolver"
-	"github.com/palantir/godel/framework/builtintasks/installupdate/layout"
-	"github.com/palantir/godel/framework/godel/config"
-	"github.com/palantir/godel/framework/godellauncher"
-	"github.com/palantir/godel/framework/internal/pathsinternal"
-	"github.com/palantir/godel/framework/internal/pluginsinternal"
-	"github.com/palantir/godel/pkg/osarch"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/artifactresolver"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/builtintasks/installupdate/layout"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel/config"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/internal/pathsinternal"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/internal/pluginsinternal"
+	"github.com/sniperkit/snk.fork.palantir-godel/pkg/osarch"
 )
 
 // LoadProvidedConfigurations returns all of the godellauncher.GodelConfig configurations provided by the specified

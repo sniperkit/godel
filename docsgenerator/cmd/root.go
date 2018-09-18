@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +23,7 @@ import (
 	"github.com/palantir/pkg/cobracli"
 	"github.com/spf13/cobra"
 
-	"github.com/palantir/godel/docsgenerator/generator"
+	"github.com/sniperkit/snk.fork.palantir-godel/docsgenerator/generator"
 )
 
 var (

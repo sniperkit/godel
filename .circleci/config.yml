@@ -1,26 +1,29 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 ### Docker images ###
 alpine-go-curr: &alpine-go-curr
-  working_directory: /go/src/github.com/palantir/godel
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-godel
   docker:
     - image: nmiyake/go:alpine-go-1.10.2-t128
 
 alpine-go-prev: &alpine-go-prev
-  working_directory: /go/src/github.com/palantir/godel
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-godel
   docker:
     - image: nmiyake/go:alpine-go-1.9.6-t128
 
 brew-go: &brew-go
-  working_directory: /go/src/github.com/palantir/godel
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-godel
   docker:
     - image: nmiyake/go:brew-go-t128
 
 darwin-linux: &darwin-linux
-  working_directory: /go/src/github.com/palantir/godel
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-godel
   docker:
     - image: nmiyake/go:go-darwin-linux-1.10.2-t128
 
 darwin-linux-no-cgo: &darwin-linux-no-cgo
-  working_directory: /go/src/github.com/palantir/godel
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-godel
   docker:
     - image: nmiyake/go:go-darwin-linux-no-cgo-1.10.2-t128
       environment:
@@ -180,7 +183,7 @@ jobs:
       - *godel-root-cache-restore
       - *godel-version
       - *godel-root-cache-save
-      - run: ./godelw github-wiki --docs-dir docs --repository=git@github.com:palantir/godel.wiki.git
+      - run: ./godelw github-wiki --docs-dir docs --repository=git@github.com:sniperkit/snk.fork.palantir-godel.wiki.git
 
   ### Dist/Publish ###
   dist:

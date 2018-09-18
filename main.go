@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,12 +29,12 @@ import (
 	"github.com/nmiyake/pkg/errorstringer"
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/builtintasks"
-	"github.com/palantir/godel/framework/godel"
-	"github.com/palantir/godel/framework/godel/config"
-	"github.com/palantir/godel/framework/godellauncher"
-	"github.com/palantir/godel/framework/godellauncher/defaulttasks"
-	"github.com/palantir/godel/framework/plugins"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/builtintasks"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godel/config"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher/defaulttasks"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/plugins"
 )
 
 func main() {

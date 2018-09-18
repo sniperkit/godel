@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,8 +31,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel/framework/godellauncher"
-	"github.com/palantir/godel/framework/pluginapi/v2/pluginapi"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/godellauncher"
+	"github.com/sniperkit/snk.fork.palantir-godel/framework/pluginapi/v2/pluginapi"
 )
 
 // RunPlugin runs a plugin with the specified arguments. The plugin is loaded in the same manner that it would be for
